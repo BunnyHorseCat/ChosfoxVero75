@@ -1,4 +1,4 @@
-// Copyright 2025 QMK
+// Copyright 2026 QMK
 // SPDX-License-Identifier: GPL-2.0-or-later
 
 /*******************************************************************************
@@ -34,7 +34,7 @@
 #endif // LOCKING_RESYNC_ENABLE
 
 #ifndef DEBOUNCE
-#    define DEBOUNCE 5
+#    define DEBOUNCE 50
 #endif // DEBOUNCE
 
 #ifndef DIODE_DIRECTION
@@ -64,6 +64,10 @@
 #ifndef RGB_MATRIX_VAL_STEP
 #    define RGB_MATRIX_VAL_STEP 13
 #endif // RGB_MATRIX_VAL_STEP
+
+#ifndef RGB_MATRIX_LED_COUNT
+#    define RGB_MATRIX_LED_COUNT 91
+#endif // RGB_MATRIX_LED_COUNT
 
 #ifndef FORCE_NKRO
 #    define FORCE_NKRO True

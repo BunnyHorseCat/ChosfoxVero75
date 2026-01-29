@@ -28,7 +28,8 @@
 
 BOARD ?= FS026
 BOOTLOADER ?= custom
-DEBOUNCE_TYPE ?= asym_eager_defer_pk
+DEBOUNCE_TYPE ?= sym_eager_pk
+EEPROM_DRIVER ?= custom
 MCU ?= FS026
 NO_USB_STARTUP_CHECK ?= yes
 PLATFORM_KEY ?= chibios
@@ -40,4 +41,3 @@ MOUSEKEY_ENABLE ?= yes
 CONSOLEKEY_ENABLE ?= yes
 COMMAND_ENABLE ?= no
 RGB_MATRIX_ENABLE ?= yes
-ENCODER_MAP_ENABLE ?= yes
