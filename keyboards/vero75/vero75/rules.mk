@@ -5,6 +5,7 @@
 #  or <this_dir>/boards
 BOARD = FS026
 EEPROM_CUSTOM = custom
+EEPROM_DRIVER = custom
 NO_USB_STARTUP_CHECK = yes
 BLUETOOTH_CUSTOM = yes
 
