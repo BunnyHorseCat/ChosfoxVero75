@@ -58,6 +58,21 @@
 #define NOP_FUDGE 0.4
 #endif
 
+#define DYNAMIC_KEYMAP_EEPROM_MAX_ADDR  1151
+#define EEPROM_SIZE 1152
+
+#define FEE_PAGE_SIZE (0x200)
+#define FEE_PAGE_COUNT (8)
+
+#define FEE_PAGE_BASE_ADDRESS (0x1F000)
+#define FEE_MCU_FLASH_SIZE (0x1000)
+
+#define EECONFIG_USER_DATA_SIZE 4
+
+#define EECONFIG_KB_DATA_SIZE 1
+
+#define TRANSIENT_EEPROM_SIZE 4096
+
 #define RGB_MATRIX_LED_COUNT 91
 #define RGB_MATRIX_KEYPRESSES
 #define RGB_MATRIX_KEYRELEASES
@@ -69,7 +84,7 @@
 
 // #define RGB_MATRIX_HUE_STEP 8               // 设置 RGB 矩阵速度步进值
 // #define RGB_MATRIX_SAT_STEP 16              // 设置 RGB 矩阵速度步进值 
-#define RGB_MATRIX_SPD_STEP 64                 // 设置 RGB 矩阵速度步进值
+#define RGB_MATRIX_SPD_STEP 16                 // 设置 RGB 矩阵速度步进值
 #define RGB_MATRIX_VAL_STEP 13                 // 设置 RGB 矩阵亮度步进值
 // #define RGB_MATRIX_DEFAULT_VAL 180          // 设置 RGB 矩阵默认亮度值
-// #define RGB_MATRIX_DEFAULT_SPD 180          // 设置 RGB 矩阵默认亮度值
+// #define RGB_MATRIX_DEFAULT_SPD 128          // 设置 RGB 矩阵默认亮度值
