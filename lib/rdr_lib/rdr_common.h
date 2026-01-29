@@ -324,9 +324,9 @@ void Emi_Write_Data(uint8_t *User_Data, uint8_t User_Length);
 
 #define MAX_NAME_LEN                (18)
 #define USER_BlE_ID                 (0X307A)
-#define USER_BlE1_NAME              "VERO 75"
-#define USER_BlE2_NAME              "VERO 75"
-#define USER_BlE3_NAME              "VERO 75"
+#define USER_BlE1_NAME              "Chosfox Vero75 1"
+#define USER_BlE2_NAME              "Chosfox Vero75 2"
+#define USER_BlE3_NAME              "Chosfox Vero75 3"
 #define USER_DSLEEP_TIME            0x147AE0 //二级休眠时间 单位 S
 
 volatile uint8_t Spi_Send_Recv_Flg;
