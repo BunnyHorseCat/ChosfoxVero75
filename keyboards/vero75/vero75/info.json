@@ -1,5 +1,5 @@
 {
-    "keyboard_name": "VERO 75",
+    "keyboard_name": "Chosfox Vero75",
     "manufacturer": "RDMCTMZT",
     "maintainer": "RDMCTMZT",
     "usb": {
@@ -59,8 +59,8 @@
             "hue_wave": true,
             "pixel_fractal": false,
             "pixel_flow": true,
-            "pixel_rain": false,
-            "typing_heatmap": false,
+            "pixel_rain": true,
+            "typing_heatmap": true,
             "digital_rain": true,
             "solid_reactive_simple": false,
             "solid_reactive": true,
