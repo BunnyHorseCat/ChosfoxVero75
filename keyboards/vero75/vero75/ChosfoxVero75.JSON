@@ -108,13 +108,13 @@
 							"content": ["id_qmk_rgblight_effect", 2, 2],
 							"options":
 							[
-								[ "none", 0 ],
-								[ "wave", 1 ],
-								[ "fixed wave", 2 ],
-								[ "spectrum", 3 ],
-								[ "breathe", 4 ],
-								[ "light", 5 ],
-								[ "shutdown",6 ]
+								[ "None", 0 ],
+								[ "Wave", 1 ],
+								[ "Fixed Wave", 2 ],
+								[ "Spectrum", 3 ],
+								[ "Breathe", 4 ],
+								[ "Light", 5 ],
+								[ "Shutdown",6 ]
 							]
 						},
 						{
